@@ -7,8 +7,7 @@
     android:background="@color/colorPrimary"
     android:gravity="center_vertical"
     app:layout_collapseMode="pin"
-    app:navigationIcon="@mipmap/back"
     app:popupTheme="@style/AppTheme.PopupOverlay"
     app:theme="@style/ToolbarTheme"
-    app:title="淡漠de人生"
+    app:title="Title"
     app:titleTextColor="#ffffff" />

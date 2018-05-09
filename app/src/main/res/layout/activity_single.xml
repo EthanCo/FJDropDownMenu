@@ -15,11 +15,11 @@
 
         <fj.dropdownmenu.lib.view.DropdownButton
             android:id="@+id/btnType"
-            app:isLine="true"
+            app:isLine="false"
             app:selectedTextColor="@color/colorAccent"
-            app:selectedIcon="@mipmap/ic_up2"
+            app:selectedIcon="@mipmap/btn_down"
             app:lineColor="@color/colorAccent"
-            app:notSelectedIcon="@mipmap/ic_dn2"
+            app:notSelectedIcon="@mipmap/btn_up"
             app:notSelectedTextColor="@color/font_black_content"
             android:layout_width="0px"
             android:layout_height="match_parent"
@@ -30,7 +30,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
-        android:background="@color/font_black_6" />
+        android:background="@color/font_gray" />
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -51,7 +51,7 @@
 
         <fj.dropdownmenu.lib.view.DropdownColumnView
             android:id="@+id/lvType"
-            app:columnSelectedIcon="@mipmap/ic_check2"
+            app:columnSelectedIcon="@mipmap/ic_tick"
             app:columnType="singleRow"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FJDropDownMenu.iml" filepath="$PROJECT_DIR$/FJDropDownMenu.iml" />
+      <module fileurl="file://E:\VersionManager\GitHub\FJDropDownMenu\FJDropDownMenu.iml" filepath="E:\VersionManager\GitHub\FJDropDownMenu\FJDropDownMenu.iml" />
       <module fileurl="file://$PROJECT_DIR$/FJDropDownMenuLib/FJDropDownMenuLib.iml" filepath="$PROJECT_DIR$/FJDropDownMenuLib/FJDropDownMenuLib.iml" />
+      <module fileurl="file://E:\VersionManager\GitHub\FJDropDownMenu\FJDropDownMenuLib\FJDropDownMenuLib.iml" filepath="E:\VersionManager\GitHub\FJDropDownMenu\FJDropDownMenuLib\FJDropDownMenuLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\VersionManager\GitHub\FJDropDownMenu\app\app.iml" filepath="E:\VersionManager\GitHub\FJDropDownMenu\app\app.iml" />
     </modules>
   </component>
 </project>

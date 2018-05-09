@@ -6,6 +6,7 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -13,6 +14,7 @@ import fj.dropdownmenu.lib.R;
 
 
 public class DropdownButton extends RelativeLayout {
+    private final ImageView imgRight;
     private TextView textView;
     private View bottomLine;
 
@@ -44,6 +46,7 @@ public class DropdownButton extends RelativeLayout {
         LayoutInflater.from(context).inflate(R.layout.dropdown_button, this, true);
         textView = (TextView) findViewById(R.id.textView);
         bottomLine = findViewById(R.id.bottomLine);
+        imgRight = findViewById(R.id.img_ic_right);
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.DropdownButton);
         if (typedArray != null) {
             isLine = typedArray.getBoolean(R.styleable.DropdownButton_isLine,true);
@@ -67,7 +70,8 @@ public class DropdownButton extends RelativeLayout {
 
         }
         textView.setTextColor(mNotSelectedTextColor);
-        textView.setCompoundDrawablesWithIntrinsicBounds(null, null, mNotSelectedIcon, null);
+        imgRight.setImageDrawable(mNotSelectedIcon);
+        //textView.setCompoundDrawablesWithIntrinsicBounds(null, null, mNotSelectedIcon, null);
     }
 
 
@@ -94,7 +98,8 @@ public class DropdownButton extends RelativeLayout {
             textView.setTextColor(mNotSelectedTextColor);
             bottomLine.setVisibility(GONE);
         }
-        textView.setCompoundDrawablesWithIntrinsicBounds(null, null, drawable, null);
+        imgRight.setImageDrawable(drawable);
+        //textView.setCompoundDrawablesWithIntrinsicBounds(null, null, drawable, null);
     }
 
 }

@@ -9,6 +9,8 @@
     <ListView
         android:id="@+id/lvSingleRow"
         android:layout_width="110dp"
+        android:scrollbars="none"
+        android:overScrollMode="never"
         android:layout_height="wrap_content"
         android:background="@color/stand_bg"
         android:divider="@color/font_gray"
